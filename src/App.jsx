@@ -1,17 +1,18 @@
-import './App.css'
-import { Feedbackform } from './Components/Feedbackform/Feedbackform/Feedbackform'
-import { Modal } from './Components/Modal/Modal'
+import "./App.css";
+import { FeedbackForm } from "./components/FeedbackForm/FeedbackForm";
+import { Modal } from "./components/Modal/Modal";
 
 function App() {
-  
   return (
-  
-  <><Feedbackform />
-  <Modal show
-    Lorem Modal>
-    </Modal></>
-    );
-  }
-  
-  export default App
+    <>
+      <FeedbackForm />
+      <Modal show>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sed,
+        minima cum aspernatur voluptate tenetur, dicta provident minus debitis
+        rem esse enim. Tempore, doloremque veniam unde iste ipsa ea distinctio.
+      </Modal>
+    </>
+  );
+}
 
+export default App;
